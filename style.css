@@ -1,0 +1,80 @@
+ body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav a {
+    margin: 2px;
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* SECTIONS */
+section {
+    padding: 25px;
+    margin: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+/* PROFILE */
+.profile {
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid #00ffcc;
+}
+
+/* PROJECT CARDS */
+.project {
+    background: rgba(0,0,0,0.4);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* BUTTON */
+button {
+    padding: 12px;
+    background: #00ffcc;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    opacity: 0.7;
+}
